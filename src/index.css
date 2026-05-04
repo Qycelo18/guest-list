@@ -1,0 +1,29 @@
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+
+h1 {
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f3f3f3;
+}
+
+tbody tr:hover {
+  background: gray;
+}
+
+td {
+  padding: 1ch;
+}
